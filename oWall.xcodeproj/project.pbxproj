@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C44CC1238191AEF136A5FAB /* Pods_oWall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BFBEB0FC4AFB7969D99102 /* Pods_oWall.framework */; };
+		7D186BCF216F98C5001B6F1A /* Bilgiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D186BCE216F98C5001B6F1A /* Bilgiler.swift */; };
+		7D32FD49216BE5970071FCA8 /* FullImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32FD48216BE5970071FCA8 /* FullImageVC.swift */; };
 		7DC26DCC216A243B0004FABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC26DCB216A243B0004FABB /* AppDelegate.swift */; };
-		7DC26DCE216A243B0004FABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC26DCD216A243B0004FABB /* ViewController.swift */; };
 		7DC26DD1216A243B0004FABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC26DCF216A243B0004FABB /* Main.storyboard */; };
 		7DC26DD3216A243C0004FABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DC26DD2216A243C0004FABB /* Assets.xcassets */; };
 		7DC26DD6216A243C0004FABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC26DD4216A243C0004FABB /* LaunchScreen.storyboard */; };
+		7DC26DDE216A252D0004FABB /* oWallCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC26DDD216A252D0004FABB /* oWallCollectionVC.swift */; };
+		7DC26DE0216A25780004FABB /* oWallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC26DDF216A25780004FABB /* oWallCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000EDB1BD96BA8893E256984 /* Pods-oWall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oWall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oWall/Pods-oWall.debug.xcconfig"; sourceTree = "<group>"; };
+		7D186BCE216F98C5001B6F1A /* Bilgiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bilgiler.swift; sourceTree = "<group>"; };
+		7D32FD48216BE5970071FCA8 /* FullImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageVC.swift; sourceTree = "<group>"; };
 		7DC26DC8216A243A0004FABB /* oWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC26DCB216A243B0004FABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7DC26DCD216A243B0004FABB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DC26DD0216A243B0004FABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DC26DD2216A243C0004FABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DC26DD5216A243C0004FABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DC26DD7216A243C0004FABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC26DDD216A252D0004FABB /* oWallCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oWallCollectionVC.swift; sourceTree = "<group>"; };
+		7DC26DDF216A25780004FABB /* oWallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oWallCell.swift; sourceTree = "<group>"; };
+		A9BFBEB0FC4AFB7969D99102 /* Pods_oWall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oWall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E0D5DBD8AB967FEEA7AA6C /* Pods-oWall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oWall.release.xcconfig"; path = "Pods/Target Support Files/Pods-oWall/Pods-oWall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C44CC1238191AEF136A5FAB /* Pods_oWall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52B46A04546125C159A0699C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9BFBEB0FC4AFB7969D99102 /* Pods_oWall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D32FD4A216BE5A80071FCA8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DC26DCB216A243B0004FABB /* AppDelegate.swift */,
+				7DC26DDD216A252D0004FABB /* oWallCollectionVC.swift */,
+				7DC26DDF216A25780004FABB /* oWallCell.swift */,
+				7D32FD48216BE5970071FCA8 /* FullImageVC.swift */,
+				7D186BCE216F98C5001B6F1A /* Bilgiler.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7D32FD4B216BE5BF0071FCA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DC26DCF216A243B0004FABB /* Main.storyboard */,
+				7DC26DD4216A243C0004FABB /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7DC26DBF216A243A0004FABB = {
 			isa = PBXGroup;
 			children = (
 				7DC26DCA216A243A0004FABB /* oWall */,
 				7DC26DC9216A243A0004FABB /* Products */,
+				E19096BDF81934DBF90BA6D2 /* Pods */,
+				52B46A04546125C159A0699C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +96,21 @@
 		7DC26DCA216A243A0004FABB /* oWall */ = {
 			isa = PBXGroup;
 			children = (
-				7DC26DCB216A243B0004FABB /* AppDelegate.swift */,
-				7DC26DCD216A243B0004FABB /* ViewController.swift */,
-				7DC26DCF216A243B0004FABB /* Main.storyboard */,
+				7D32FD4A216BE5A80071FCA8 /* Controllers */,
+				7D32FD4B216BE5BF0071FCA8 /* Views */,
 				7DC26DD2216A243C0004FABB /* Assets.xcassets */,
-				7DC26DD4216A243C0004FABB /* LaunchScreen.storyboard */,
 				7DC26DD7216A243C0004FABB /* Info.plist */,
 			);
 			path = oWall;
+			sourceTree = "<group>";
+		};
+		E19096BDF81934DBF90BA6D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				000EDB1BD96BA8893E256984 /* Pods-oWall.debug.xcconfig */,
+				D5E0D5DBD8AB967FEEA7AA6C /* Pods-oWall.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DC26DDA216A243C0004FABB /* Build configuration list for PBXNativeTarget "oWall" */;
 			buildPhases = (
+				EC54B16446DAEE5AA8E01147 /* [CP] Check Pods Manifest.lock */,
 				7DC26DC4216A243A0004FABB /* Sources */,
 				7DC26DC5216A243A0004FABB /* Frameworks */,
 				7DC26DC6216A243A0004FABB /* Resources */,
+				6A8EA1B59321D4284BEAE063 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +181,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A8EA1B59321D4284BEAE063 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-oWall/Pods-oWall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oWall/Pods-oWall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC54B16446DAEE5AA8E01147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oWall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DC26DC4216A243A0004FABB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DC26DCE216A243B0004FABB /* ViewController.swift in Sources */,
+				7DC26DDE216A252D0004FABB /* oWallCollectionVC.swift in Sources */,
+				7D186BCF216F98C5001B6F1A /* Bilgiler.swift in Sources */,
 				7DC26DCC216A243B0004FABB /* AppDelegate.swift in Sources */,
+				7DC26DE0216A25780004FABB /* oWallCell.swift in Sources */,
+				7D32FD49216BE5970071FCA8 /* FullImageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +383,7 @@
 		};
 		7DC26DDB216A243C0004FABB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000EDB1BD96BA8893E256984 /* Pods-oWall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +402,7 @@
 		};
 		7DC26DDC216A243C0004FABB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E0D5DBD8AB967FEEA7AA6C /* Pods-oWall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
